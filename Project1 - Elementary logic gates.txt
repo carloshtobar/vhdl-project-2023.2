@@ -23,9 +23,9 @@ DMux		Dmux gate
 Not16		16-bit Not
 And16		16-bit And
 Or16		16-bit Or
-Mux16		16-bit multiplexor
+Mux16		16-bit multiplexor (Selects between two 16-bit inputs)
 Or8Way		Or(in0,in1,...,in7)
-Mux4Way16	16-bit/4-way mux
-Mux8Way16	16-bit/8-way mux
-DMux4Way	4-way demultiplexor
-DMux8Way	8-way demultiplexor
+Mux4Way16	16-bit/4-way mux (Selects between four 16-bit inputs)
+Mux8Way16	16-bit/8-way mux (Selects between eight 16-bit inputs)
+DMux4Way	4-way demultiplexor (Channels the input to one out of four outputs)
+DMux8Way	8-way demultiplexor (Channels the input to one out of eight outputs)
